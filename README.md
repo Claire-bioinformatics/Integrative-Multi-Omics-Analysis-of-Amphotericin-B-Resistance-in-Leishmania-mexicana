@@ -12,3 +12,7 @@
   - No major fold change
   - Increased protein stability
   - Reduced protein–protein interaction
+
+# 1. Genomics: Identifying Resistance Variants
+## Variant Validation (IGV)
+A high-confidence A>T SNP in CYP51 (chr11:443299) is uniquely present in the amphotericin B-resistant strain, with strong read support and no heterogeneity.
