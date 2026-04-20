@@ -16,3 +16,12 @@
 # 1. Genomics: Identifying Resistance Variants
 ## Variant Validation (IGV)
 A high-confidence A>T SNP in CYP51 (chr11:443299) is uniquely present in the amphotericin B-resistant strain, with strong read support and no heterogeneity.
+
+## Pipeline Summary
+fastqc *.fastq -o qc/
+trim_galore --phred64 --paired R1.fastq R2.fastq
+bowtie2 -x ref -1 R1 -2 R2 -S output.sam
+samtools sort output.sam -o sorted.bam
+freebayes -f ref.fa sorted.bam > variants.vcf
+vcffilter -f "QUAL > 20" variants.vcf > filtered.vcf
+snpEff annotate filtered.vcf > annotated.vcf
