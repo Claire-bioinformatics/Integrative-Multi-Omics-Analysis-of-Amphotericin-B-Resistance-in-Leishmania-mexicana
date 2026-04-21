@@ -15,6 +15,7 @@
 
 # 1. Genomics: Identifying Resistance Variants
 ## Variant Validation (IGV)
+![IGV SNP](figures/figure3_igv.png)
 A high-confidence A>T SNP in CYP51 (chr11:443299) is uniquely present in the amphotericin B-resistant strain, with strong read support and no heterogeneity.
 
 ## Pipeline Summary
@@ -29,20 +30,26 @@ snpEff annotate filtered.vcf > annotated.vcf
 ```
 # 2. Metabolomics: Detecting Biochemical Changes
 ## Global Metabolic Shift
+![PCA](figures/figure4A_pca.png)
 PCA shows clear separation between wild-type and resistant strains (PC1 = 56.8%), indicating large-scale metabolic reprogramming
 ## Differential Metabolites
+![Volcano plot](figures/figure4B_volcano.png)
 346 significantly altered features (p < 0.05), confirming widespread metabolic disruption.
 ## Ergosterol Depletion
+![Peak 655](figures/figure5_peak655.png)
 Peak 655 (ergosterol candidate) is strongly reduced in resistant strains, suggesting loss of Amphotericin B target.
 ## Alternative Sterol Accumulation
 Multiple sterol-like intermediates are enriched in resistant strains, indicating pathway rerouting.
 
 # 3. Structural Biology: Mechanistic Insight
 ## Protein Structure Comparison
+![Structure overlay](figures/figure8A_structure.png)
 The N176I mutation does not disrupt overall CYP51 structure, suggesting resistance is not due to protein misfolding.
 ## Substrate Docking
+![Docking](figures/figure9_docking.png)
 Similar binding energies between WT and mutant indicate that substrate binding is preserved.
 ## Molecular Dynamics
+![Molecular dynamics](figures/figure10_md.png)
 The mutant protein shows reduced radius of gyration, indicating increased compactness and structural stability.
 
 # Integrated Mechanism of Resistance
