@@ -55,3 +55,10 @@ This study supports a multi-layered resistance mechanism:
 # Reproducibility Note
 This workflow was originally executed on a university HPC cluster.
 Commands provided here are reconstructed to reflect the analytical steps and ensure reproducibility.
+
+# Skills Demonstrated
+Variant calling & annotation (FreeBayes, SnpEff)
+LC-MS metabolomics (XCMS, MetaboAnalyst)
+Structural biology (AlphaFold, docking, MD)
+Multi-omics integration
+Biological interpretation of drug resistance
