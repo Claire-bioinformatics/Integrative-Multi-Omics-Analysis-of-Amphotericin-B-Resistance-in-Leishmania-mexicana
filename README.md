@@ -27,3 +27,4 @@ freebayes -f ref.fa sorted.bam > variants.vcf
 vcffilter -f "QUAL > 20" variants.vcf > filtered.vcf
 snpEff annotate filtered.vcf > annotated.vcf
 ```
+# 2. Metabolomics: Detecting Biochemical Changes
