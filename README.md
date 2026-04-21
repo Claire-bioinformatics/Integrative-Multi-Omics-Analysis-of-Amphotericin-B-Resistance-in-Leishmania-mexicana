@@ -36,3 +36,11 @@ PCA shows clear separation between wild-type and resistant strains (PC1 = 56.8%)
 Peak 655 (ergosterol candidate) is strongly reduced in resistant strains, suggesting loss of Amphotericin B target.
 ## Alternative Sterol Accumulation
 Multiple sterol-like intermediates are enriched in resistant strains, indicating pathway rerouting.
+
+# 3. Structural Biology: Mechanistic Insight
+## Protein Structure Comparison
+The N176I mutation does not disrupt overall CYP51 structure, suggesting resistance is not due to protein misfolding.
+## Substrate Docking
+Similar binding energies between WT and mutant indicate that substrate binding is preserved.
+## Molecular Dynamics
+The mutant protein shows reduced radius of gyration, indicating increased compactness and structural stability.
