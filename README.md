@@ -44,3 +44,14 @@ The N176I mutation does not disrupt overall CYP51 structure, suggesting resistan
 Similar binding energies between WT and mutant indicate that substrate binding is preserved.
 ## Molecular Dynamics
 The mutant protein shows reduced radius of gyration, indicating increased compactness and structural stability.
+
+# Integrated Mechanism of Resistance
+This study supports a multi-layered resistance mechanism:
+- Genomics → CYP51 N176I mutation
+- Metabolomics → Loss of ergosterol + accumulation of alternative sterols
+- Structural biology → Altered protein dynamics and reduced enzyme interactions
+- Together, these changes disrupt ergosterol biosynthesis and reduce Amphotericin B efficacy.
+  
+# Reproducibility Note
+This workflow was originally executed on a university HPC cluster.
+Commands provided here are reconstructed to reflect the analytical steps and ensure reproducibility.
