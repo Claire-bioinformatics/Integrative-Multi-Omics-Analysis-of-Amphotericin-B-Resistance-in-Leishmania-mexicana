@@ -28,3 +28,11 @@ vcffilter -f "QUAL > 20" variants.vcf > filtered.vcf
 snpEff annotate filtered.vcf > annotated.vcf
 ```
 # 2. Metabolomics: Detecting Biochemical Changes
+## Global Metabolic Shift
+PCA shows clear separation between wild-type and resistant strains (PC1 = 56.8%), indicating large-scale metabolic reprogramming
+## Differential Metabolites
+346 significantly altered features (p < 0.05), confirming widespread metabolic disruption.
+## Ergosterol Depletion
+Peak 655 (ergosterol candidate) is strongly reduced in resistant strains, suggesting loss of Amphotericin B target.
+## Alternative Sterol Accumulation
+Multiple sterol-like intermediates are enriched in resistant strains, indicating pathway rerouting.
